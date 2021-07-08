@@ -129,9 +129,23 @@ try {
         });
     };
 
+    // смена заголовка про смене хеша
+    const hashTitle = () => {
+        const goodsTitle = document.querySelector('.goods__title');
+        
+        if(hash === 'women')
+            goodsTitle.textContent = 'Женщинам';
+        else if(hash === 'men')
+            goodsTitle.textContent = 'Мужчинам';
+        else
+            goodsTitle.textContent = 'Детям';
+    };
+
+    hashTitle();
 
     window.addEventListener('hashchange', () => {
         hash = location.hash.substring(1);
+        hashTitle();
         getGoods(renderGoodsList, hash);
     });
 
