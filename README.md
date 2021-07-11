@@ -1,6 +1,6 @@
 # Интенсив по JS "Cвой интернет-магазин «Ламода»"
 
-Учебный проект доступен по адресу [https://sonikflame.github.io/bmw-x6-js/](https://sonikflame.github.io/bmw-x6-js/).
+Учебный проект доступен по адресу [https://sonikflame.github.io/lomoda/](https://sonikflame.github.io/lomoda/).
 
 
 ## В проекте использовались языки:
